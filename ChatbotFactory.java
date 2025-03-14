@@ -1,4 +1,4 @@
-public class ChatbotFactory {
+public class ChatbotFactory1 {
     public static Chatbot getChatbot(String queryType) {
         if (queryType.equalsIgnoreCase("billing")) {
             return new BillingChatbot();
